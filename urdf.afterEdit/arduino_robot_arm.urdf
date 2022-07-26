@@ -131,7 +131,7 @@
         <parent link="arm1" />
         <child link="arm2" />
         <axis xyz="0 0 1.0" />
-        <limit lower="-1.57" upper="1.57" effort="1000.0" velocity="1.0" />
+        <limit lower="-2.5" upper="2.5" effort="1000.0" velocity="1.0" />
     </joint>
     <joint name="wrist" type="revolute">
         <origin xyz="-0.00922 0.12639 -0.00514" rpy="3.14056 0 0" />
